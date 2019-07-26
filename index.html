@@ -86,7 +86,7 @@
 					</li>
 
 					<li>
-						<a href="http://maratona.ime.usp.br/inscr18.html"> Inscrição</a>
+						<a href="http://maratona.ime.usp.br/inscr19.html"> Inscrição</a>
 					</li>
 
 					<li>
@@ -94,19 +94,15 @@
 					</li>
 
 					<li>
-						<a href="http://maratona.ime.usp.br/ambiente18.html">Ambiente Computacional</a>
+						<a href="http://maratona.ime.usp.br/sobre19.html#ambiente">Ambiente Computacional</a>
 					</li>
 
 					<li>
-						<a href="http://maratona.ime.usp.br/regras18.html">Regulamento</a>
+						<a href="http://maratona.ime.usp.br/sobre19.html#regras">Regulamento</a>
 					</li>
 
 					<li>
-						<a href="#sponsors">Patrocinadores</a>
-					</li>
-
-					<li>
-						<a href="#contact">Contato</a>
+						<a href="http://maratona.ime.usp.br/antigas19.html">Competições passadas</a>
 					</li>
 
 				</ul>
@@ -132,12 +128,12 @@
 					<!-- home content -->
 					<div class="col-md-8 col-md-offset-2">
 						<div class="home-content">
-							<h1>Maratona de Programação 2018</h1>
+							<h1>Maratona de Programação 2019</h1>
 							<h4 class="lead">
 								<strong>Primeira Fase - Manaus / Amazonas</strong>
 							</h4>
 							<h4 class="lead">Univerisdade do Estado do Amazonas (UEA/EST)</h4>
-							<a href="http://maratona.ime.usp.br/inscr18.html" class="main-btn">Quero me inscrever</a>
+							<a href="http://maratona.ime.usp.br/inscr19.html" class="main-btn">Quero me inscrever</a>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -160,7 +156,7 @@
 				<div class="section-title">
 					<h3 class="title">
 						<span>Sobre <span class="lower">a</span></span>
-						<span style="color: #0885ad;">Maratona 2018</span>
+						<span style="color: #0885ad;">Maratona 2019</span>
 					</h3>
 				</div>
 				<!-- /section title -->
@@ -170,10 +166,7 @@
 					<div class="about-content">
 						<p>A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação da ACM, o <a href="https://icpc.baylor.edu/" target="_blank">ACM-ICPC International Collegiate Programming Contest</a>, e é parte da regional sulamericana do concursosendo esta a 23a. edição da competição.</p>
 
-						<p>A Primeira Fase de 2018 no estado do Amazonas acontecerá em Manaus, tendo como sede a Universidade do Estado do Amazonas - UEA. A competição acontercerá no dia 15 de setembro de 2018, nos laboratórios da Escola Superior de Tecnologia - EST</p>
-
-						<!-- <p>Para mais informações acesse o site oficial da Maratona de Programação 2018 em
-							<a href="http://maratona.ime.usp.br/" target="_blank">http://maratona.ime.usp.br/</a>.</p> -->
+						<p>A Primeira Fase de 2019 no estado do Amazonas acontecerá em Manaus, tendo como sede a Universidade do Estado do Amazonas - UEA. A competição acontercerá no dia 14 de setembro de 2019, nos laboratórios da Escola Superior de Tecnologia - EST</p>
 					</div>
 					<!-- /about content -->
 
@@ -258,7 +251,7 @@
 						<div class="event">
 							<div class="event-day ">
 								<div>
-									<span class="day">15</span>
+									<span class="day">14</span>
 									<span class="year">Out, 2018</span>
 								</div>
 							</div>
@@ -459,14 +452,14 @@
 
 	<script type="text/javascript">
 		
-		var contest = moment.tz("2018-09-15 00:00", "America/Manaus");
+		var contest = moment.tz("2019-09-14 00:00", "America/Manaus");
 	 	$('#clock.simple').countdown({ date: contest });
 
         $('#clock.styled').countdown({
           date: contest,
           render: function(data) {
 
-          	$("#days").html(this.leadingZeros(data.days, 3)); 
+          	$("#days").html(this.leadingZeros(data.days, 3).slice(1)); 
           	$("#hours").html(this.leadingZeros(data.hours, 2));
           	$("#minutes").html(this.leadingZeros(data.min, 2));
 			$("#seconds").html(this.leadingZeros(data.sec, 2));
